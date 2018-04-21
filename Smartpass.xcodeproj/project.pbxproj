@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946649BF208A2F540054AAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946649BE208A2F540054AAF9 /* AppDelegate.swift */; };
+		946649C1208A2F540054AAF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946649C0208A2F540054AAF9 /* ViewController.swift */; };
+		946649C4208A2F540054AAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946649C2208A2F540054AAF9 /* Main.storyboard */; };
+		946649C6208A2F540054AAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946649C5208A2F540054AAF9 /* Assets.xcassets */; };
+		946649C9208A2F540054AAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946649C7208A2F540054AAF9 /* LaunchScreen.storyboard */; };
+		946649D4208A2F540054AAF9 /* SmartpassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946649D3208A2F540054AAF9 /* SmartpassTests.swift */; };
+		946649DF208A2F550054AAF9 /* SmartpassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946649DE208A2F550054AAF9 /* SmartpassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		946649D0208A2F540054AAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946649B3208A2F540054AAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946649BA208A2F540054AAF9;
+			remoteInfo = Smartpass;
+		};
+		946649DB208A2F550054AAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946649B3208A2F540054AAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946649BA208A2F540054AAF9;
+			remoteInfo = Smartpass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		946649BB208A2F540054AAF9 /* Smartpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946649BE208A2F540054AAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		946649C0208A2F540054AAF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		946649C3208A2F540054AAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		946649C5208A2F540054AAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946649C8208A2F540054AAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		946649CA208A2F540054AAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946649CF208A2F540054AAF9 /* SmartpassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartpassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946649D3208A2F540054AAF9 /* SmartpassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartpassTests.swift; sourceTree = "<group>"; };
+		946649D5208A2F550054AAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946649DA208A2F550054AAF9 /* SmartpassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartpassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946649DE208A2F550054AAF9 /* SmartpassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartpassUITests.swift; sourceTree = "<group>"; };
+		946649E0208A2F550054AAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946649B8208A2F540054AAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946649CC208A2F540054AAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946649D7208A2F550054AAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946649B2208A2F540054AAF9 = {
+			isa = PBXGroup;
+			children = (
+				946649BD208A2F540054AAF9 /* Smartpass */,
+				946649D2208A2F540054AAF9 /* SmartpassTests */,
+				946649DD208A2F550054AAF9 /* SmartpassUITests */,
+				946649BC208A2F540054AAF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		946649BC208A2F540054AAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946649BB208A2F540054AAF9 /* Smartpass.app */,
+				946649CF208A2F540054AAF9 /* SmartpassTests.xctest */,
+				946649DA208A2F550054AAF9 /* SmartpassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946649BD208A2F540054AAF9 /* Smartpass */ = {
+			isa = PBXGroup;
+			children = (
+				946649BE208A2F540054AAF9 /* AppDelegate.swift */,
+				946649C0208A2F540054AAF9 /* ViewController.swift */,
+				946649C2208A2F540054AAF9 /* Main.storyboard */,
+				946649C5208A2F540054AAF9 /* Assets.xcassets */,
+				946649C7208A2F540054AAF9 /* LaunchScreen.storyboard */,
+				946649CA208A2F540054AAF9 /* Info.plist */,
+			);
+			path = Smartpass;
+			sourceTree = "<group>";
+		};
+		946649D2208A2F540054AAF9 /* SmartpassTests */ = {
+			isa = PBXGroup;
+			children = (
+				946649D3208A2F540054AAF9 /* SmartpassTests.swift */,
+				946649D5208A2F550054AAF9 /* Info.plist */,
+			);
+			path = SmartpassTests;
+			sourceTree = "<group>";
+		};
+		946649DD208A2F550054AAF9 /* SmartpassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				946649DE208A2F550054AAF9 /* SmartpassUITests.swift */,
+				946649E0208A2F550054AAF9 /* Info.plist */,
+			);
+			path = SmartpassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946649BA208A2F540054AAF9 /* Smartpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946649E3208A2F550054AAF9 /* Build configuration list for PBXNativeTarget "Smartpass" */;
+			buildPhases = (
+				946649B7208A2F540054AAF9 /* Sources */,
+				946649B8208A2F540054AAF9 /* Frameworks */,
+				946649B9208A2F540054AAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartpass;
+			productName = Smartpass;
+			productReference = 946649BB208A2F540054AAF9 /* Smartpass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		946649CE208A2F540054AAF9 /* SmartpassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946649E6208A2F550054AAF9 /* Build configuration list for PBXNativeTarget "SmartpassTests" */;
+			buildPhases = (
+				946649CB208A2F540054AAF9 /* Sources */,
+				946649CC208A2F540054AAF9 /* Frameworks */,
+				946649CD208A2F540054AAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946649D1208A2F540054AAF9 /* PBXTargetDependency */,
+			);
+			name = SmartpassTests;
+			productName = SmartpassTests;
+			productReference = 946649CF208A2F540054AAF9 /* SmartpassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946649D9208A2F550054AAF9 /* SmartpassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946649E9208A2F550054AAF9 /* Build configuration list for PBXNativeTarget "SmartpassUITests" */;
+			buildPhases = (
+				946649D6208A2F550054AAF9 /* Sources */,
+				946649D7208A2F550054AAF9 /* Frameworks */,
+				946649D8208A2F550054AAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946649DC208A2F550054AAF9 /* PBXTargetDependency */,
+			);
+			name = SmartpassUITests;
+			productName = SmartpassUITests;
+			productReference = 946649DA208A2F550054AAF9 /* SmartpassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946649B3208A2F540054AAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Smartpass;
+				TargetAttributes = {
+					946649BA208A2F540054AAF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					946649CE208A2F540054AAF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 946649BA208A2F540054AAF9;
+					};
+					946649D9208A2F550054AAF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 946649BA208A2F540054AAF9;
+					};
+				};
+			};
+			buildConfigurationList = 946649B6208A2F540054AAF9 /* Build configuration list for PBXProject "Smartpass" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946649B2208A2F540054AAF9;
+			productRefGroup = 946649BC208A2F540054AAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946649BA208A2F540054AAF9 /* Smartpass */,
+				946649CE208A2F540054AAF9 /* SmartpassTests */,
+				946649D9208A2F550054AAF9 /* SmartpassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946649B9208A2F540054AAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946649C9208A2F540054AAF9 /* LaunchScreen.storyboard in Resources */,
+				946649C6208A2F540054AAF9 /* Assets.xcassets in Resources */,
+				946649C4208A2F540054AAF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946649CD208A2F540054AAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946649D8208A2F550054AAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946649B7208A2F540054AAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946649C1208A2F540054AAF9 /* ViewController.swift in Sources */,
+				946649BF208A2F540054AAF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946649CB208A2F540054AAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946649D4208A2F540054AAF9 /* SmartpassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946649D6208A2F550054AAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946649DF208A2F550054AAF9 /* SmartpassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		946649D1208A2F540054AAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946649BA208A2F540054AAF9 /* Smartpass */;
+			targetProxy = 946649D0208A2F540054AAF9 /* PBXContainerItemProxy */;
+		};
+		946649DC208A2F550054AAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946649BA208A2F540054AAF9 /* Smartpass */;
+			targetProxy = 946649DB208A2F550054AAF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		946649C2208A2F540054AAF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946649C3208A2F540054AAF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		946649C7208A2F540054AAF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946649C8208A2F540054AAF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946649E1208A2F550054AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		946649E2208A2F550054AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946649E4208A2F550054AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smartpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.Smartpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		946649E5208A2F550054AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smartpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.Smartpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		946649E7208A2F550054AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartpassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.SmartpassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartpass.app/Smartpass";
+			};
+			name = Debug;
+		};
+		946649E8208A2F550054AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartpassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.SmartpassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartpass.app/Smartpass";
+			};
+			name = Release;
+		};
+		946649EA208A2F550054AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartpassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.SmartpassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smartpass;
+			};
+			name = Debug;
+		};
+		946649EB208A2F550054AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmartpassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = one.SmartpassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smartpass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946649B6208A2F540054AAF9 /* Build configuration list for PBXProject "Smartpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946649E1208A2F550054AAF9 /* Debug */,
+				946649E2208A2F550054AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946649E3208A2F550054AAF9 /* Build configuration list for PBXNativeTarget "Smartpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946649E4208A2F550054AAF9 /* Debug */,
+				946649E5208A2F550054AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946649E6208A2F550054AAF9 /* Build configuration list for PBXNativeTarget "SmartpassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946649E7208A2F550054AAF9 /* Debug */,
+				946649E8208A2F550054AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946649E9208A2F550054AAF9 /* Build configuration list for PBXNativeTarget "SmartpassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946649EA208A2F550054AAF9 /* Debug */,
+				946649EB208A2F550054AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946649B3208A2F540054AAF9 /* Project object */;
+}
